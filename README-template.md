@@ -27,7 +27,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-I improved my skills of semantic HTML by using landmark tags like '<main>' and '<footer>' instead of the generic ones like '<div>'.
+I improved my skills of semantic HTML by using landmark tags like 'main' and 'footer' instead of the generic ones like 'div'.
 Also, I got to practice using flexbox to stylize my page, which is good because I was not used to it yet.
 
 ## Author
