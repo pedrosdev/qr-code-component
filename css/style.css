@@ -4,28 +4,29 @@ body {
     font-size: 15px;
     height: 100vh;
     font-family: 'Outfit', sans-serif;
+    flex-direction: column;
 }
 
-body, .container, #qr-code {
+body, main, div {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.container {
-    width: 1440px;
+main {
+    width: 100%;
     max-width: 1440px;
     height: 720px;
     max-height: 100vh;
     background: hsl(212, 45%, 89%);
 }
 
-.container, #qr-code {
+main, div {
     box-shadow: 0px 5px 15px hsl(218, 24%, 82%);
     flex-direction: column;
 }
 
-#qr-code {
+div {
     width: 280px;
     background: hsl(0, 0%, 100%);
     padding: 15px;
@@ -45,21 +46,27 @@ h1 {
     margin: 25px 0;
 }
 
-h1, p {
+h1, div p {
     width: 90%
 }
 
-#caption {
+div p {
     margin: 0 0 30px;
     font-weight: 400;
     color: hsl(220, 15%, 55%);
 }
 
-.attribution {
-    font-size: 11px;
-
+footer {
+    width: 100%;
+    text-align: center;
 }
 
-.attribution a {
+footer p {
+    font-size: 11px;
+    margin: 10px 0 0;
+}
+
+footer a {
     color: hsl(228, 45%, 44%);
+    
 }
