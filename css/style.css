@@ -7,7 +7,7 @@ body {
     flex-direction: column;
 }
 
-body, main, div {
+body, main, figure {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,12 +21,12 @@ main {
     background: hsl(212, 45%, 89%);
 }
 
-main, div {
+main, figure {
     box-shadow: 0px 5px 15px hsl(218, 24%, 82%);
     flex-direction: column;
 }
 
-div {
+figure {
     width: 280px;
     background: hsl(0, 0%, 100%);
     padding: 15px;
@@ -46,11 +46,11 @@ h1 {
     margin: 25px 0;
 }
 
-h1, div p {
+h1, figure p {
     width: 90%
 }
 
-div p {
+figure p {
     margin: 0 0 30px;
     font-weight: 400;
     color: hsl(220, 15%, 55%);
@@ -68,5 +68,4 @@ footer p {
 
 footer a {
     color: hsl(228, 45%, 44%);
-    
 }
